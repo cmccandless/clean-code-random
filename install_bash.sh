@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "python $(pwd)/clean-code-random/random_phrase.py" >> ~/.bashrc
+echo "python $(pwd)/random_phrase.py" >> ~/.bashrc
