@@ -8,6 +8,10 @@ To remove, open `~/.bashrc` and remove the line referencing `random_phrase.py`.
 
 ![screenshot depicting a phrase printed before prompt in new bash terminal session](screenshot.png)
 
+## Requirements
+
+- Python3 (anything newer than 3.7 should be just fine)
+
 
 # Credits
 
