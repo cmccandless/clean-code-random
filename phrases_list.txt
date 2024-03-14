@@ -1,0 +1,66 @@
+[General rules] Follow standard conventions.
+[General rules] Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
+[General rules] Boy scout rule. Leave the campground cleaner than you found it.
+[General rules] Always find root cause. Always look for the root cause of a problem.
+[Design rules] Keep configurable data at high levels.
+[Design rules] Prefer polymorphism to if/else or switch/case.
+[Design rules] Separate multi-threading code.
+[Design rules] Prevent over-configurability.
+[Design rules] Use dependency injection.
+[Design rules] Follow Law of Demeter. A class should know only its direct dependencies.
+[Understandability tips] Be consistent. If you do something a certain way, do all similar things in the same way.
+[Understandability tips] Use explanatory variables.
+[Understandability tips] Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.
+[Understandability tips] Prefer dedicated value objects to primitive type.
+[Understandability tips] Avoid logical dependency. Don't write methods which works correctly depending on something else in the same class.
+[Understandability tips] Avoid negative conditionals.
+[Names rules] Choose descriptive and unambiguous names.
+[Names rules] Make meaningful distinction.
+[Names rules] Use pronounceable names.
+[Names rules] Use searchable names.
+[Names rules] Replace magic numbers with named constants.
+[Names rules] Avoid encodings. Don't append prefixes or type information.
+[Functions rules] Small.
+[Functions rules] Do one thing.
+[Functions rules] Use descriptive names.
+[Functions rules] Prefer fewer arguments.
+[Functions rules] Have no side effects.
+[Functions rules] Don't use flag arguments. Split method into several independent methods that can be called from the client without the flag.
+[Comments rules] Always try to explain yourself in code.
+[Comments rules] Don't be redundant.
+[Comments rules] Don't add obvious noise.
+[Comments rules] Don't use closing brace comments.
+[Comments rules] Don't comment out code. Just remove.
+[Comments rules] Use as explanation of intent.
+[Comments rules] Use as clarification of code.
+[Comments rules] Use as warning of consequences.
+[Source code structure] Separate concepts vertically.
+[Source code structure] Related code should appear vertically dense.
+[Source code structure] Declare variables close to their usage.
+[Source code structure] Dependent functions should be close.
+[Source code structure] Similar functions should be close.
+[Source code structure] Place functions in the downward direction.
+[Source code structure] Keep lines short.
+[Source code structure] Don't use horizontal alignment.
+[Source code structure] Use white space to associate related things and disassociate weakly related.
+[Source code structure] Don't break indentation.
+[Objects and data structures] Hide internal structure.
+[Objects and data structures] Prefer data structures.
+[Objects and data structures] Avoid hybrids structures (half object and half data).
+[Objects and data structures] Should be small.
+[Objects and data structures] Do one thing.
+[Objects and data structures] Small number of instance variables.
+[Objects and data structures] Base class should know nothing about their derivatives.
+[Objects and data structures] Better to have many functions than to pass some code into a function to select a behavior.
+[Objects and data structures] Prefer non-static methods to static methods.
+[Tests] One assert per test.
+[Tests] Readable.
+[Tests] Fast.
+[Tests] Independent.
+[Tests] Repeatable.
+[Code smells] Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.
+[Code smells] Fragility. The software breaks in many places due to a single change.
+[Code smells] Immobility. You cannot reuse parts of the code in other projects because of involved risks and high effort.
+[Code smells] Needless Complexity.
+[Code smells] Needless Repetition.
+[Code smells] Opacity. The code is hard to understand.
