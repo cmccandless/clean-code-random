@@ -6,6 +6,8 @@ To do this, run `bash install_bash.sh` to append the command to your bashrc.
 
 To remove, open `~/.bashrc` and remove the line referencing `random_phrase.py`.
 
+![screenshot depicting a phrase printed before prompt in new bash terminal session](screenshot.png)
+
 
 # Credits
 
